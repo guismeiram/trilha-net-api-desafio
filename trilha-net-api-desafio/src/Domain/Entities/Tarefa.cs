@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Domain.Entity;
+using Domain.Entitys;
 using Domain.Enum;
 
-namespace TrilhaApiDesafio.Models
+namespace Domain.Entities
 {
     public class Tarefa : Entity
     {
