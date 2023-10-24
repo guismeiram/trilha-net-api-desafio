@@ -25,7 +25,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{5531562A-E9D4-4D80-8650-DCE9B3DF9F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "src\IoC\IoC.csproj", "{372D0EC3-9615-4F74-AC73-8F18E765A6FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "src\IoC\IoC.csproj", "{372D0EC3-9615-4F74-AC73-8F18E765A6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{D70C1F5B-4702-422B-8A27-2A9A1C53C481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20DD169C-3611-4605-AEC3-441BCD95D40E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mer", "mer", "{0E470B6C-BABE-4B1C-80FF-AC3043986C47}"
+	ProjectSection(SolutionItems) = preProject
+		sql\mer\mer-tarefa.PNG = sql\mer\mer-tarefa.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{9FFCD28B-0D14-48DE-90E7-B67507CA4C00}"
+	ProjectSection(SolutionItems) = preProject
+		sql\script\script-tarefa.sql = sql\script\script-tarefa.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{ED4FB0DF-B98E-4D1E-A055-0F4D3FDFC016}"
+	ProjectSection(SolutionItems) = preProject
+		docs\img\diagrama.png = docs\img\diagrama.png
+		docs\img\schema_tarefa.png = docs\img\schema_tarefa.png
+		docs\img\swagger.png = docs\img\swagger.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +89,9 @@ Global
 		{59326306-04FC-46C2-AA8D-95BD4626F67B} = {4451417D-048A-461A-8C41-B0CBD17D2E8B}
 		{5531562A-E9D4-4D80-8650-DCE9B3DF9F3E} = {3C662CA3-1966-45F2-8810-8B237C6ED5D0}
 		{372D0EC3-9615-4F74-AC73-8F18E765A6FE} = {5531562A-E9D4-4D80-8650-DCE9B3DF9F3E}
+		{0E470B6C-BABE-4B1C-80FF-AC3043986C47} = {D70C1F5B-4702-422B-8A27-2A9A1C53C481}
+		{9FFCD28B-0D14-48DE-90E7-B67507CA4C00} = {D70C1F5B-4702-422B-8A27-2A9A1C53C481}
+		{ED4FB0DF-B98E-4D1E-A055-0F4D3FDFC016} = {0B28DC36-0880-4422-98D6-6375633AFFFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B21F002A-A681-41B7-A303-A2DE56B1C61E}

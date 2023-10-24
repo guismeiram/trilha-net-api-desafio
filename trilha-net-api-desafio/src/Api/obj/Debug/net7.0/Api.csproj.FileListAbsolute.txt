@@ -1,10 +1,3 @@
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.AssemblyReference.cache
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfoInputs.cache
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfo.cs
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.CoreCompileInputs.cache
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\appsettings.json
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\Api.exe
@@ -74,6 +67,13 @@ C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\IoC.pdb
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\Application.pdb
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\bin\Debug\net7.0\Domain.pdb
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.AssemblyReference.cache
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfoInputs.cache
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfo.cs
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\staticwebassets\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.Api.props
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Api.props

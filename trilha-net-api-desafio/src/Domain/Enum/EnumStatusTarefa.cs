@@ -2,7 +2,7 @@ namespace Domain.Enum
 {
     public enum EnumStatusTarefa
     {
-        Pendente,
-        Finalizado
+        Pendente = 1,
+        Finalizado = 2
     }
 }

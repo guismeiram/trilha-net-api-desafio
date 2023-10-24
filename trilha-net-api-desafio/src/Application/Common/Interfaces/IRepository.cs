@@ -24,8 +24,6 @@ namespace Application.Common.Interfaces
 
         Task<bool> DeleteAsync(Guid id);
 
-        /*Task<T> getStatus(EnumStatusTarefa statusTarefa);
-
-        Task<T> getData(DateTime date);*/
+       
     }
 }
