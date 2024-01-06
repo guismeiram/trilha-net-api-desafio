@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84ESJ5bU9oKQo3krFuAgX7WFZZf2t6saSf9HwLcJ4WHQBATWJ6vx5nYr4iWxgDvAEmuFdXFABWonDXWhwN0o/A==",
+  "dgSpecHash": "7+1b77gHJPxFJaoluBgEc9OEIayAs/Gr5xbTyhKpew+Rbp1ylOzEXKIbNKU6DkHvT0xKcIB/Cr/85QGzLXRTWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guism\\Desktop\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\guism\\Desktop\\Aleatorios---Organizar\\aleatorio-2\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -12,8 +12,8 @@
     "C:\\Users\\guism\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.0\\fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
-    "C:\\Users\\guism\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\guism\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

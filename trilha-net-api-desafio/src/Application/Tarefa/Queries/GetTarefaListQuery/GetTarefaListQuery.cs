@@ -35,15 +35,9 @@ namespace Application.Tarefa.Queries.GetTarefaListQuery
                 _mapper = mapper;
             }
 
-            public async Task<Result<PaginatedList<TarefaDto>>> Handle(Query request, CancellationToken cancellationToken)
+            Task<Result<PaginatedList<TarefaDto>>> IRequestHandler<Query, Result<PaginatedList<TarefaDto>>>.Handle(Query request, CancellationToken cancellationToken)
             {
-
-                var tarefas = await _uow.TarefaRepository
-                    .AsQueryable()
-                    .ProjectTo<TarefaDto>(_mapper.ConfigurationProvider)
-                    .PaginatedListAsync(request.PageNumber, request.PageSize);
-
-                return Result<PaginatedList<TarefaDto>>.Success(tarefas);
+                throw new NotImplementedException();
             }
         }
     }

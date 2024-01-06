@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lWnK/NuI6jWoOc7pfir+RaEeXqjavxJtVamSe+jVr8dzlyLx+W4yfqnkf5feV/CR3Yupb2mJIonSNB6H7+oDNQ==",
+  "dgSpecHash": "qjhk693PvI1KwQj9NwxXkRBySDQAbOe2ufFfvN7c0F+HMc1YJ1jK8qh6NLYdtsPg7S96Kk7LVFPxkNtknAV1vA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guism\\Desktop\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\guism\\Desktop\\Aleatorios---Organizar\\aleatorio-2\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guism\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\guism\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

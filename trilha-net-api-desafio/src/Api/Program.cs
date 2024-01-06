@@ -17,6 +17,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -25,7 +27,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseRouting();
 
 app.UseHttpsRedirection();
+
+app.UseRouting();
+app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
+
 app.Run();
+

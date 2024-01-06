@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BV34MG1ZdVXNohjIggrQgJ/UprReU/cndGrPznBajRHL37KEPvVYGwQIzbBzsS3K/7+Ysj8nc9L6BaAxO+3weQ==",
+  "dgSpecHash": "5SsJ9FnU+6HFGZii8uRvUjvPX/PGuUKoiPY3wP0M5Wp0o3qvledcAPHMETBqn2ngRF4XVAdFUaDEFsWG1eGrxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guism\\Desktop\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\guism\\Desktop\\Aleatorios---Organizar\\aleatorio-2\\trilha-net-api-desafio\\trilha-net-api-desafio\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

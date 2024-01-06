@@ -88,3 +88,11 @@ C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.pdb
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.genruntimeconfig.cache
 C:\Users\guism\Desktop\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\ref\Api.dll
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.AssemblyReference.cache
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfoInputs.cache
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.AssemblyInfo.cs
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\guism\Desktop\Aleatorios---Organizar\aleatorio-2\trilha-net-api-desafio\trilha-net-api-desafio\src\Api\obj\Debug\net7.0\Api.sourcelink.json
