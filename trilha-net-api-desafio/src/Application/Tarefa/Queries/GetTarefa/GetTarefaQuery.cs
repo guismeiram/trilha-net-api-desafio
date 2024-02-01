@@ -32,13 +32,10 @@ namespace Application.Tarefa.Queries.GetTarefa
 
             public async Task<Result<TarefaDto>> Handle(Query request, CancellationToken cancellationToken)
             {
-                var product = await _uow
-                    .TarefaRepository
-                    .AsQueryable(x => x.Id == request.Id)
-                    .ProjectTo<TarefaDto>(_mapper.ConfigurationProvider)
-                    .FirstOrDefaultAsync();
+                var tarefa = await _uow
+                    .TarefaRepository.Get(request.Id);
 
-                return Result<TarefaDto>.Success(product);
+                return Result<TarefaDto>.Success(_mapper.Map<TarefaDto>(tarefa));
             }
         }
     }

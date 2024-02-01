@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,11 +9,35 @@ namespace Application.Common.Models
 {
     public class Result<T>
     {
-        public bool IsSuccess { get; set; }
-        public T Value { get; set; }
-        public string Error { get; set; }
+        public HttpStatusCode StatusCode { get; }
 
-        public static Result<T> Success(T value) => new Result<T> { IsSuccess = true, Value = value };
-        public static Result<T> Failure(string error) => new Result<T> { IsSuccess = false, Error = error };
+        public bool Sucess { get; }
+        public string ErrorMessage { get; }
+        public T Data { get; }
+
+        public Result(HttpStatusCode statusCode)
+        {
+            StatusCode = statusCode;
+        }
+
+        private Result(bool success, string errorMessage, T data, HttpStatusCode statusCode)
+        {
+            Sucess = success;
+            ErrorMessage = errorMessage;
+            Data = data;
+            StatusCode = statusCode;
+        }
+
+
+        public static Result<T> Success(T data)
+        {
+
+            return new Result<T>(true, string.Empty, data, HttpStatusCode.Created);
+        }
+
+        public static Result<T> Failure(string errorMessage)
+        {
+            return new Result<T>(false, errorMessage, default, HttpStatusCode.BadRequest);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Application.Common.Mappings;
+using AutoMapper;
 using Domain.Enum;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,11 @@ namespace Application.Tarefa.Queries.GetTarefaData
         public string? Descricao { get; set; }
         public DateTime Data { get; set; }
         public EnumStatusTarefa Status { get; set; }
+
+        public void Mapping(Profile profile)
+        {
+            profile.CreateMap<Domain.Entities.Tarefa, TarefaDto>()
+                    .ReverseMap();
+        }
     }
 }

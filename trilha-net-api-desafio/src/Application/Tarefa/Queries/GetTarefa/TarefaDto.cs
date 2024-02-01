@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.Common.Mappings;
+using AutoMapper;
 using Domain.Enum;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Tarefa.Queries.GetTarefa
 {
-    public class TarefaDto
+    public class TarefaDto : IMapFrom<Domain.Entities.Tarefa>
     {
         public Guid Id { get; set; }
         public string? Titulo { get; set; }

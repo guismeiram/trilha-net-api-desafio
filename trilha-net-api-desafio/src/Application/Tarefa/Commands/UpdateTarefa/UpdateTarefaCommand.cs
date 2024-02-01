@@ -15,16 +15,10 @@ namespace Application.Tarefa.Commands.UpdateTarefa
     {
         public class Command : IRequest<Result<Unit>>
         {
-            public UpdateTarefaDto Tarefa { get; set; }
+            public  UpdateTarefaDto Tarefa { get; set; }
         }
 
-        public class CommandValidator : AbstractValidator<Command>
-        {
-            public CommandValidator()
-            {
-                RuleFor(x => x.Tarefa).SetValidator(new UpdateTarefaCommandValidator());
-            }
-        }
+       
 
         public class Handler : IRequestHandler<Command, Result<Unit>>
         {
@@ -47,7 +41,7 @@ namespace Application.Tarefa.Commands.UpdateTarefa
 
                 if (result) return Result<Unit>.Success(Unit.Value);
 
-                return Result<Unit>.Failure("Failed to update tarefa");
+                return Result<Unit>.Failure("Failed to update paciente");
             }
         }
     }

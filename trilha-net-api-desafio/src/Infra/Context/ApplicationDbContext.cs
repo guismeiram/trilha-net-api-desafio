@@ -13,7 +13,7 @@ namespace Infra.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
         public DbSet<Tarefa> Tarefas => Set<Tarefa>();
 
@@ -29,6 +29,17 @@ namespace Infra.Context
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.Restrict;
 
             base.OnModelCreating(modelBuilder);
+
+            foreach (var item in modelBuilder.Model.GetEntityTypes())
+            {
+                var p = item.FindPrimaryKey().Properties.FirstOrDefault(i => i.ValueGenerated != Microsoft.EntityFrameworkCore.Metadata.ValueGenerated.Never);
+                if (p != null)
+                {
+                    p.ValueGenerated = Microsoft.EntityFrameworkCore.Metadata.ValueGenerated.Never;
+                }
+
+
+            }
         }
     }
 }

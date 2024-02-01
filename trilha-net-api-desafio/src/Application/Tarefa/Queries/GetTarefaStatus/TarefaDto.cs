@@ -17,6 +17,10 @@ namespace Application.Tarefa.Queries.GetTarefaStatus
         public DateTime Data { get; set; }
         public EnumStatusTarefa Status { get; set; }
 
-       
+        public void Mapping(Profile profile)
+        {
+            profile.CreateMap<Domain.Entities.Tarefa, TarefaDto>()
+                .ReverseMap();
+        }
     }
 }

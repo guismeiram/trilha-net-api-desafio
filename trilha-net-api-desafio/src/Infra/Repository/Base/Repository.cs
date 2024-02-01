@@ -36,6 +36,7 @@ namespace Infra.Repository.Base
         public IQueryable<T> AsQueryable(Expression<Func<T, bool>> predicate = null)
             => predicate == null ? _context.Set<T>().AsQueryable() : _context.Set<T>().Where(predicate).AsQueryable();
 
+        
         public async Task<T> AddAsync(T entity)
         {
             try
@@ -55,7 +56,7 @@ namespace Infra.Repository.Base
         {
             try
             {
-                var entity = await _context.Set<T>().SingleOrDefaultAsync(x => x.Id == id);
+                var entity = await Get(id);
                 if (entity == null)
                     return false;
 
@@ -90,14 +91,5 @@ namespace Infra.Repository.Base
             return entity;
         }
 
-        /*public async Task<T> getStatus(EnumStatusTarefa statusTarefa)
-        {
-           var tarefa = _context.Set
-        }
-
-        public Task<T> getData(DateTime date)
-        {
-            throw new NotImplementedException();
-        }*/
     }
 }
